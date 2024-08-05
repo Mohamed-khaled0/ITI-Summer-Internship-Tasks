@@ -1,0 +1,6 @@
+student (#id, name, email, phone, *level_id)
+level (#id, name)
+subject (#id, name, sub_desc, max_score)
+exam (#id, date)
+stu_subjects (#*stu_id, #*sub_id)
+stu_grades (#*stu_id, #*sub_id, #*exam_id, grade)
