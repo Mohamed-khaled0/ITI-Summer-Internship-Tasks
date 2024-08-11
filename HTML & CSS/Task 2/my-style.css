@@ -30,18 +30,10 @@ body {
     color: red;
 }
 
-#table input[type="submit"],
-#table input[type="reset"] {
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    border: 2px solid ;
-}
 
-
-#table input[type="reset"] {
+#table .reset {
     color:red;
 }
-#table input[type="submit"] {
+#table .submit {
     color:green;
 }
