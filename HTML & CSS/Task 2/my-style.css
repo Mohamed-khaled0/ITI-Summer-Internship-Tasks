@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#table {
+    border: 5px solid red;
+    width: 500px;
+}
+
+#table thead td {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+#table th,
+#table td {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+#table th {
+    text-align: left;
+}
+
+
+#table tfoot td {
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+#table input[type="submit"],
+#table input[type="reset"] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid ;
+}
+
+
+#table input[type="reset"] {
+    color:red;
+}
+#table input[type="submit"] {
+    color:green;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a registration form for Day 2 Task at ITI.">
+    <meta name="author" content="Mohamed Khaled">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 (Registration Form Task)</title>
+    <link rel="stylesheet" href="my-style.css">
+</head>
+
+<body>
+<form >
+    <table id="table" border="1">
+        <thead>
+            <tr>
+                <td colspan="3"> Registration Form </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" name="firstname" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" name="lastname" placeholder="Last Name"></td>
+            </tr>    
+            <tr>
+                <th>User Name</th>
+                <td><input type="text" name="username" placeholder="User Name"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="password" placeholder="Enter Your Password"></td>
+            </tr>
+            <tr>
+                <th>Tracks</th>
+                <th>
+                    <select name="track">
+                        <option value="Data Analysis">Data Analysis</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Web">Web</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <th>Favorites</th>
+                <td> 
+                    <input type="checkbox" name="favorites" value="football">Football
+                    <input type="checkbox" name="favorites" value="basketball">Basketball<br>
+                    <input type="checkbox" name="favorites" value="games">Games
+                    <input type="checkbox" name="favorites" value="reading">Reading<br>
+                    <input type="checkbox" name="favorites" value="swimming">Swimming
+                    <input type="checkbox" name="favorites" value="travel">Travel
+                </td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td> 
+                    <textarea name="description" placeholder="Add a little description" rows="6" cols="30"></textarea>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</form>
+
+</body>
+</html>
