@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: url("background1.jpeg");
+    background-size: cover;
+}
+
+.header {
+    height: 70px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;   
+
+}
+
+
+.headerButtons {
+    display: flex;
+    gap: 15px;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.login-btn, .signup-btn {
+    width: 120px;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 50px 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover, .signup-btn:hover, .headerLinks a:hover {
+    background-color: darkred;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+}
+
+.auth-form {
+    padding: 40px;
+    background-color: black;
+    width: 400px;
+    max-width: 90%;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    display: block;
+}
+
+.auth-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.switch-link {
+    color: orangered;
+    text-decoration: none;
+}
+
+
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.card-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card-images img {
+    width: 150px;
+    height: 150px;
+}
