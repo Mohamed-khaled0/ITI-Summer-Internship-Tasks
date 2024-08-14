@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.page-header { 
+background-color: red;
+height:  80px;
+display: flex;
+justify-content: center;
+align-items:center ;
+}
+
+.all-website{
+    display: inline-flex;
+}
+
+.side-bar {
+    background-color: rgb(122, 120, 120);
+    display: inline-flex;
+    flex-flow: column;
+
+}
+
+.fist-section {
+    border: 6px dashed green;
+    padding: 5px;
+}
+
+.second-section {
+padding-top: 20px;
+}
+
+#username-form {
+    background-color: yellow;
+    }
+
+.links{
+    color: rgb(238, 0, 0);
+    background-color: rgba(248, 177, 177, 0.4);
+    text-decoration: none;
+    margin: 30px ;
+    font-size: 20px;
+}
+
+.about-us {
+    background-color: pink;
+    flex-direction: row;
+}
+
+.about-us-p{
+    color: red;
+    text-decoration: solid;
+}
+
+.titles{
+display: inline-flex;
+flex-direction: row;
+
+}
+
+.title1 , .title2  ,.title3{
+border: 2px solid black;
+}
+
+.second-section a {
+    margin-bottom: 5px ;
+}
