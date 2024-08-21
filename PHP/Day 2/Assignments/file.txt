@@ -1,0 +1,15 @@
+//=========
+// LAP 02:=
+//=========
+//Write a PHP script to insert a string at the specified position in a given string.
+//
+//Original String : 'The brown fox'
+//Insert 'quick' between 'The' and 'brown'.
+//------------------------------------------------------------------------------
+//Write a PHP script to remove all leading zeroes from a string.
+//
+//Original String : '000547023.24'
+//------------------------------------------------------------------------------
+//Write a PHP script to remove comma(s) from the following numeric string.
+//
+//Sample String : '2,543.12'
