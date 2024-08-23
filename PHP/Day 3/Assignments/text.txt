@@ -1,0 +1,6 @@
+lap 03:-
+========
+1- Write a PHP function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument.
+2- Using loop: Write a PHP script using nested for loop that creates a chess board as shown below. Use table width="270px" and take 30px as cell height and width.
+3- Write a PHP program to print alphabet pattern 'M'.
+4- Write a PHP function to check whether all array values are strings or not.
