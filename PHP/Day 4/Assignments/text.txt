@@ -1,0 +1,9 @@
+lap 04:-
+========
+1- create two forms one for login and one for register
+2- create a file to save registered data and check on login and registered users
+3- create two pages one for home and the other is about-us page
+3- create a session to check on user if logged in
+4- logout and redirect to login page
+notes:
+*in case of register or login redirect to home page and make form disapear
