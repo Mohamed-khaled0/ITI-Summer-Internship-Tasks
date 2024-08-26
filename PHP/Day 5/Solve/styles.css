@@ -1,0 +1,101 @@
+/* General styling for all pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center content with a container class */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Button and anchor (link) styling */
+button, a {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 0;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+}
+
+/* Form styling for text and password inputs */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Styling for h2 headers */
+h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 30px;
+    background-color: #007BFF;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Navbar links */
+.navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Specific link styling */
+a {
+    color: white;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    button, a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}

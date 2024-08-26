@@ -1,0 +1,15 @@
+//Task 5:
+//————
+//1- Creat a user crud using MySQLi 
+//2- Create db
+//3- Create table user 
+//4- Print All users in a page and add link after every row to edit,view and delete this row
+
+// self study and use in lap 05
+//array map
+//array filter
+//array reduce
+
+// string
+// filter_var ( validate , sanitize)
+// filter_input
