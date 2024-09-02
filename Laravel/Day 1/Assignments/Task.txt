@@ -1,0 +1,4 @@
+1- Install composer
+2- create a new laravel project
+3- implement login and register pages as the lecture and make all validations
+4- try to search in the documentation for how to change the default error message from the controller
